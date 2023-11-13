@@ -15,35 +15,46 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive Website Travel</title>
+        <title>九章—中国古代数学成就科普网</title>
     </head>
     <body>
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">Travel</a>
+                <a href="index.html" class="nav__logo">九章</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
+                            <a href="#" class="nav__link active-link">首页</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
+                            <a href="achievements.html" class="nav__link">数学成就</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#discover" class="nav__link">Discover</a>
+                            <a href="Mathematicians.html" class="nav__link">杰出科学家</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#place" class="nav__link">Places</a>
+                            <a href="books.html" class="nav__link">数学著作</a>
                         </li>
+                        <li class="nav__item">
+                            <a href="culture.html" class="nav__link">数学文化</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="interaction.html" class="nav__link">古今互动</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://chatai.tblu.site" class="nav__link">对话数学</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="about.html" class="nav__link">关于</a>
+                        </li>
+                        
+                        <div class="nav__dark">
+                            <!-- Theme change button -->
+                            <span class="change-theme-name">深色模式</span>
+                            <i class="ri-moon-line change-theme" id="theme-button"></i>
+                        </div>
                     </ul>
-
-                    <div class="nav__dark">
-                        <!-- Theme change button -->
-                        <span class="change-theme-name">Dark mode</span>
-                        <i class="ri-moon-line change-theme" id="theme-button"></i>
-                    </div>
-
                     <i class="ri-close-line nav__close" id="nav-close"></i>
                 </div>
 
@@ -56,17 +67,17 @@
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home" id="home">
-                <img src="assets/img/home1.jpg" alt="" class="home__img">
+                <video src="assets/video/mystery_of_ancient_building.mp4" class="home__video" autoplay loop muted></video>
 
                 <div class="home__container container grid">
                     <div class="home__data">
-                        <span class="home__data-subtitle">Discover your place</span>
-                        <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
-                        <a href="#" class="button">Explore</a>
+                        <!-- <span class="home__data-subtitle">中国古代数学成就科普网</span>
+                        <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1> -->
+                        <a href="#" class="button">探索古建筑的数学奥秘</a>
 
                     </div>
 
-                    <div class="home__social">
+                    <!-- <div class="home__social">
                         <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
                             <i class="ri-facebook-box-fill"></i>
                         </a>
@@ -76,19 +87,19 @@
                         <a href="https://twitter.com/" target="_blank" class="home__social-link">
                             <i class="ri-twitter-fill"></i>
                         </a>
-                    </div>
+                    </div> -->
 
                     <div class="home__info">
                         <div>
-                            <span class="home__info-title">5 best places to visit</span>
+                            <span class="home__info-title">古代中国还有哪些成就</span>
                             <a href="" class="button button--flex button--link home__info-button">
-                                More <i class="ri-arrow-right-line"></i>
+                                一起查看更多 <i class="ri-arrow-right-line"></i>
                             </a>
                         </div>
 
-                        <div class="home__info-overlay">
+                        <!-- <div class="home__info-overlay">
                             <img src="assets/img/home2.jpg" alt="" class="home__info-img">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -448,7 +459,7 @@
                 </div>
 
                 <div class="footer__rights">
-                    <p class="footer__copy">&#169; 2021 Bedimcode. All rigths reserved.</p>
+                    <p class="footer__copy">&#169; 2023 占位符. All rigths reserved.</p>
                     <div class="footer__terms">
                         <a href="#" class="footer__terms-link">Terms & Agreements</a>
                         <a href="#" class="footer__terms-link">Privacy Policy</a>
