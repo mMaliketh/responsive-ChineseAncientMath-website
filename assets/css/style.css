@@ -118,24 +118,37 @@ h1{
     font-weight: var(--font-medium);
 }
 
+#function_box {
+    background-color: var(--first-color-alt);
+    border-radius: 5px;
+}
+
+@media (max-width: 992px) {
+    #function_box {
+        max-height: 260px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+
 @media (min-width: 992px) {
     .function_area {
         display: flex;
     }
 
     .left {
-        flex: 2;
+        flex: 4;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
 
     .right {
-        flex: 3;
+        flex: 5;
     }
 
     #function_box {
-        max-height: 60vh;
+        max-height: 30vh;
         overflow-y: auto;
         overflow-x: hidden;
     }

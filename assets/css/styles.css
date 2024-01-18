@@ -1056,7 +1056,7 @@ input {
   }
 }
 
-/* For tall screens on mobiles y desktop*/
+/* For tall screens on mobiles y desktop */
 @media screen and (min-height: 721px) {
   body {
     margin: 0;
@@ -1066,7 +1066,20 @@ input {
   }
 }
 
+/* iframe size adjust */
 .function_frame {
   width: 100%;
-  height: 110vh;
+  height: 120vh;
+}
+
+@media screen and (max-width: 1000px) {
+  .function_frame {
+    height: 200vh;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .function_frame {
+    height: 160vh;
+  }
 }
