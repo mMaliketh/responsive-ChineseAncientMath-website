@@ -73,15 +73,21 @@ function playPause(){
 
     }
 }
-videoButton.addEventListener('click', playPause)
+
+if(videoButton) {
+    videoButton.addEventListener('click', playPause)
+}
 
 function finalVideo(){
     // Video ends, icon change
     videoIcon.classList.remove('ri-pause-line')
     videoIcon.classList.add('ri-play-line')
 }
+
 // ended, when the video ends
-videoFile.addEventListener('ended', finalVideo)
+if(videoFile) {
+    videoFile.addEventListener('ended', finalVideo)
+}
 
 
 /*==================== SHOW SCROLL UP ====================*/ 
