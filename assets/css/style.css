@@ -5,12 +5,12 @@
 /*=============== MISANS FONTS ===============*/
 @font-face {
   font-family: 'MiSans VF Bold';
-  src: url('../fonts/MiSansVF.ttf') format("truetype-variations");
+  src: url('../Fonts/MiSansVF.ttf') format("truetype-variations");
 }
 
 @font-face {
   font-family: 'MiSans VF Light';
-  src: url('../fonts/MiSansVF.ttf') format("truetype-variations");
+  src: url('../Fonts/MiSansVF.ttf') format("truetype-variations");
 }
 
 /*=============== VARIABLES CSS ===============*/
