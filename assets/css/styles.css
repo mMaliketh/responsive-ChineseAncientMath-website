@@ -1074,12 +1074,12 @@ input {
 
 @media screen and (max-width: 1000px) {
   .function_frame {
-    height: 200vh;
+    height: 220vh;
   }
 }
 
 @media screen and (max-width: 777px) {
   .function_frame {
-    height: 160vh;
+    height: 180vh;
   }
 }
